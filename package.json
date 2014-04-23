@@ -1,0 +1,14 @@
+{
+	"name": "node-webserver",
+	"version": "1.0.0",
+	"preferGlobal": "true",
+	"description": "A simple http server",
+	"author": "Peekayy <peekayy.dev@gmail.com>",
+	"bin": {
+		"node-webserver": "./bin/node-webserver"
+	},
+	"dependencies": {
+		"express": "4.x",
+		"morgan": "1.0.0"
+	}
+}

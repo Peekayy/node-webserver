@@ -1,14 +1,15 @@
 {
-	"name": "node-webserver",
-	"version": "1.0.0",
-	"preferGlobal": "true",
-	"description": "A simple http server",
-	"author": "Peekayy <peekayy.dev@gmail.com>",
-	"bin": {
-		"node-webserver": "./bin/node-webserver"
-	},
-	"dependencies": {
-		"express": "4.x",
-		"morgan": "1.0.0"
-	}
+  "name": "node-webserver",
+  "version": "1.1.0",
+  "preferGlobal": "true",
+  "description": "A simple http server",
+  "author": "Peekayy <peekayy.dev@gmail.com>",
+  "bin": {
+    "node-webserver": "./bin/node-webserver"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "morgan": "^1.5.2",
+    "yargs": "^3.8.0"
+  }
 }

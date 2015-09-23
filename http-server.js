@@ -14,7 +14,7 @@ var argv = require("yargs")
     .alias("c", "cors")
     .argv;
 
-app.use(morgan("dev"));
+app.use(morgan(":remote-addr :method :url :status :response-time ms - :res[content-length]"));
 
 
 var headers = [];
